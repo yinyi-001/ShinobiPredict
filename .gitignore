@@ -1,0 +1,22 @@
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+*.cache
+
+# 忽略数据集和图片
+01_datasets/
+
+# 忽略模型训练结果（非常重要！）
+yolov5/runs/
+yolov5/
+*.pt
+
+# 忽略生成的临时文件
+*.csv
+*.png
+*.mp4
+*.json
+.vscode/
+
+# 忽略参考项目
+reference-download-complete/
