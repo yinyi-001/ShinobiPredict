@@ -15,7 +15,7 @@ if len(sys.argv) < 2:
 video_path = sys.argv[1]
 video_name = os.path.splitext(os.path.basename(video_path))[0]  # 获取视频文件名（不带扩展名）
 
-base_images_dir = r"D:\Code\ShinobiPredict\01_datasets\naruto_trial\images_all"
+base_images_dir = r"D:\Code\ShinobiPredict\01_datasets\naruto_action_trial\images_all"
 output_folder = os.path.join(base_images_dir, video_name)
 
 #创建输出文件夹（如果不存在）
