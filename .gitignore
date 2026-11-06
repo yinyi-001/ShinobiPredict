@@ -20,3 +20,6 @@ yolov5/
 
 # 忽略参考项目
 reference-download-complete/
+
+#保留assets里的展示文件
+!assets
